@@ -19,6 +19,7 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
+  --lightblue-color: #b6efe7;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -255,4 +256,8 @@ main .section.highlight {
   background-color: var(--cream-color);
   margin: 0;
   padding: 40px 0;
+}
+
+main .section.columns-container {
+  background-color: var(--lightblue-color);
 }
